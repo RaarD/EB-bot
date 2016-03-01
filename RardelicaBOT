@@ -25,7 +25,7 @@ RawBlameHistory     3757 lines (3562 sloc)  179 KB
 
     /*window.onerror = function() {
         var room = JSON.parse(localStorage.getItem("basicBotRoom"));
-        window.location = 'https://plug.dj' + room.name;
+        window.location = 'https://stg.plug.dj' + room.name;
     };*/
 
     API.getWaitListPosition = function(id){
@@ -264,8 +264,8 @@ RawBlameHistory     3757 lines (3562 sloc)  179 KB
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "basicBot",
-            language: "english",
+            botName: "RardeliciaBOT",
+            language: "portuguese",
             chatLink: "https://rawgit.com/bscBot/source/master/lang/en.json",
             scriptLink: "https://rawgit.com/bscBot/source/master/basicBot.js",
             roomLock: false, // Requires an extension to re-load the script
